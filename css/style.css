@@ -1,0 +1,73 @@
+:root{
+  --color-text: #fff;
+  --body-color: #2B2E33;
+}
+a,b{
+  color: var(--color-text) !important ;
+  text-decoration: none;
+}
+.details span{
+  color: black;
+  font-weight: bold;
+  
+}
+body{
+  background-color: var(--body-color);
+  color: var(--color-text);
+  font-family: "Nerko One", cursive;
+  font-size: 14px;
+}
+h2 , p{
+  font-size: 13px;
+}
+
+.nav-item .nav-link.active,.nav-item .nav-link:hover {
+   color: #09c !important;
+   transition: color 0.7s;
+}
+header img{
+  max-height: 30vh;
+  object-fit: cover;
+}
+nav img{
+  width: 50px;
+  height: 50px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.container{
+  background-color: #3A497B;
+  border-radius: 20px;
+  padding: 5px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
+.col-md-4{
+  border: 2px solid rgb(42, 42, 42);
+  border-radius: 11px;
+}
+
+.navbar{
+  background-color: var(--body-color) !important;
+
+ 
+}
+.cate{
+  border-top: 2px solid rgb(42, 42, 42);
+}
+.gameCol{
+  filter: grayscale(0.7);
+  transition: 0.5s transform , 0.5s filter 0.2s;
+}
+.gameCol:hover{
+  filter: grayscale(0);
+  transform: scale(1.03);
+}
+.cate span{
+  background-color: #32383E;
+  padding:0 3px ;
+}
